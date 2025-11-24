@@ -1,0 +1,73 @@
+:root {
+  --color-principal: #ffffff;
+  --color-secundario: #f97316;
+  --color-header: #1e768a ;
+  --color-fuente: #000000 ;
+  --fuente: arial, sans-serif;
+  --espaciado: 2rem;
+}
+
+header {
+  background: var(--color-header);
+  color: var(--color-principal);
+  padding: var(--espaciado);
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--color-principal);
+  padding: .7rem;
+}
+
+body {
+  background-color: var(--color-principal);
+  color:var(--color-fuente);
+  font-family: var(--fuente);
+  margin: 0;
+  padding: 0;
+}
+
+.imagen{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 250px; 
+}
+
+main {
+  max-width: 1000px;
+  margin-left: 2rem;
+}
+
+.campo {
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.campo label {
+  font-weight: bold;
+}
+
+.campo input,
+.campo select {
+  width: 300px;
+  padding: 0.5rem;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+}
+
+.button {
+  margin-left: 1rem;
+  background-color: var(--color-secundario);
+  color: var(--color-principal);
+  border: none;
+  padding: .7rem;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #111827;
+  color: var(--color-principal);
+}

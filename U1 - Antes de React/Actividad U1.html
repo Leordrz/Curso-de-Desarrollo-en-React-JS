@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Curso Desarrollo en React JS</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header class= "header">
+    <h1>Curso Desarrollo en React JS</h1>
+    <nav>
+        <a href="#Home">Home </a>
+        <a href="#presentacion">Presentacion </a>
+        <a href="#contacto">Contacto </a>
+    </nav>
+  </header>
+
+<div id="Home" class= "imagen">
+  <img src="https://www.jotform.com/blog/wp-content/uploads/2017/01/react-js.png" alt="Logo React" height="200">
+</div>
+
+  <main >
+    <article id="presentacion">
+      <h2>Presentación</h2>
+      <p>
+        <strong>ReactJS</strong> es una biblioteca desarrollada por <em>Facebook</em> cuya principal ventaja 
+        es su alta performance. Con <strong>ReactJS</strong> haremos principal foco en la creación 
+        de interfaces de usuario utilizando el patrón de diseño MVC (modelo-vista-controlador). 
+        <strong>ReactJS</strong> al igual que Angular se destaca por la facilidad de desarrollo de aplicaciones SPA 
+        (Single Page Application) brindando a los usuarios una experiencia mas fluida. 
+        Entre sus caracteristicas podemos encontrar el virtual DOM, mejora de performance, 
+        modularidad y un claro flujo de datos. <br><br>
+        <mark>Modalidad: A distancia</mark>
+      </p>
+
+      <h3>Objetivos específicos</h3>
+      <ol>
+        <li>Proveer las bases conceptuales y técnicas necesarias para avanzar en temáticas más complejas del desarrollo Front End.</li>
+        <li>Garantizar que el estudiante pueda implementar navegación funcional e integración de datos en sus proyectos.</li>
+        <li>Estimular la escritura de código limpio, legible y mantenible.</li>
+      </ol>
+    </article>
+
+    <h3>Contacto</h3>
+    <form id="contacto">
+      <div class="campo">
+        <label for="nombre">Nombre<br></label>
+        <input type="text" id="nombre" name="nombre" required>
+      </div>
+
+      <div class="campo">
+        <label for="email">Correo electrónico<br></label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="campo">
+        <label for="tema">Tema de Consulta<br></label>
+        <select id="tema" name="tema">
+          <option value="html">Contenido</option>
+          <option value="css">Pago</option>
+          <option value="react">Duda General</option>
+        </select>
+      </div>
+
+      <button class="button" type="submit">Enviar</button>
+    </form>
+
+  </main>
+
+  <footer class="footer">
+    <small>© 2025 UTN.BA  -  Leonel Rodriguez</small>
+  </footer>
+
+</body>
+</html>
