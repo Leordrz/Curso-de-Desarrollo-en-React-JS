@@ -5,10 +5,10 @@ Cada unidad incorpora nuevos conceptos: desde HTML y CSS básicos hasta el uso d
 
 ## Unidades del curso
 
-| Unidad | Tema | Carpeta |
-|--------|------|---------|
-| U1 | Antes de React (HTML + CSS) | /U1 - Antes de React |
-| U2 | JavaScript esencial | /U2 - JavaScript esencial |
+| Unidad | Tema 
+|--------|------
+| U1 | Antes de React (HTML + CSS) |
+| U2 | JavaScript esencial |
 
 ## Capturas
 U1 - Antes de React
