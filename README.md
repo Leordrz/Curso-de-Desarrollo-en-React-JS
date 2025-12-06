@@ -15,7 +15,7 @@ La página incluye:
 
 Está pensada como práctica previa al uso de React, enfocada en HTML y CSS puros.
 
-![alt text](/Capturas/U1 - Screenshot.png)
+![alt text](/Capturas/U1%20-%20Screenshot.png)
 
 ## Cómo clonar y abrir el proyecto
 
