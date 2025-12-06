@@ -1,20 +1,17 @@
-# Unidad 1 – Antes de React: Landing HTML + CSS
+# Curso Desarrollo en React JS – UTN.BA
 
-Este proyecto es una landing simple del **Curso de Desarrollo en React JS (UTN.BA)**.  
-El objetivo de la actividad es practicar la estructura mínima de un documento HTML5, el uso de etiquetas semánticas, un formulario básico y una hoja de estilos externa en CSS con variables.
+Este repositorio reúne todas las actividades y prácticas del curso **Desarrollo en React JS**.  
+Cada unidad incorpora nuevos conceptos: desde HTML y CSS básicos hasta el uso de React y consumo de APIs.
 
-## Descripción del proyecto
+## Unidades del curso
 
-La página incluye:
+| Unidad | Tema | Carpeta |
+|--------|------|---------|
+| U1 | Antes de React (HTML + CSS) | /U1 - Antes de React |
+| U2 | JavaScript esencial | /U2 - JavaScript esencial |
 
-- Un encabezado con el título del curso y un menú de navegación interno.
-- Una sección de presentación con información general del curso y sus objetivos.
-- Una imagen relacionada con React.
-- Un formulario de contacto con campos de nombre, correo electrónico y tema de consulta.
-- Un pie de página con datos del autor y año.
-
-Está pensada como práctica previa al uso de React, enfocada en HTML y CSS puros.
-
+## Capturas
+U1 - Antes de React
 ![alt text](/U1%20-%20Antes%20de%20React/Capturas/U1-Screenshot.png)
 
 ## Cómo clonar y abrir el proyecto
