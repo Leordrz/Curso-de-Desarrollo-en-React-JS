@@ -12,7 +12,7 @@ Cada unidad incorpora nuevos conceptos: desde HTML y CSS básicos hasta el uso d
 
 ## Capturas
 U1 - Antes de React
-![alt text](/U1%20-%20Antes%20de%20React/Capturas/U1-Screenshot.png)
+![alt text](/Capturas/U1-Screenshot.png)
 
 U2 - Javascript Escencial
 ![alt text](/Capturas/U2-Screenshot.png)
