@@ -1,0 +1,99 @@
+:root {
+  --color-principal: #ffffff;
+  --color-secundario: #f97316;
+  --color-header: #1e768a;
+  --color-fuente: #000000;
+  --fuente: Arial, sans-serif;
+  --espaciado: 2rem;
+}
+
+header {
+  background: var(--color-header);
+  color: var(--color-principal);
+  padding: var(--espaciado);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 1rem 0 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--color-principal);
+  padding: 0.7rem;
+}
+
+nav a:hover {
+  color: var(--color-secundario);
+}
+
+main {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem 2rem;
+}
+
+body {
+  background-color: var(--color-principal);
+  color: var(--color-fuente);
+  font-family: var(--fuente);
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  margin-top: 2rem;
+}
+
+article p {
+  margin-bottom: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  gap: 1rem;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.button {
+  background-color: var(--color-secundario);
+  color: var(--color-principal);
+  border: none;
+  padding: 0.7rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.mensaje {
+text-align: center;
+}
+
+.exito {
+  color: green;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+
+.footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #111827;
+  color: var(--color-principal);
+}

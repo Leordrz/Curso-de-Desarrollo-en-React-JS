@@ -14,10 +14,13 @@ Cada unidad incorpora nuevos conceptos: desde HTML y CSS básicos hasta el uso d
 U1 - Antes de React
 ![alt text](/U1%20-%20Antes%20de%20React/Capturas/U1-Screenshot.png)
 
+U2 - Javascript Escencial
+![alt text](/Capturas/U2-Screenshot.png)
+
 ## Cómo clonar y abrir el proyecto
 
-1. Clonar el repositorio:
+Clonar el repositorio:
 
 ```bash
 git clone https://github.com/Leordrz/Curso-de-Desarrollo-en-React-JS.git
-cd "Curso-de-Desarrollo-en-React-JS/U1 - Antes de React"
+cd "Curso-de-Desarrollo-en-React-JS"

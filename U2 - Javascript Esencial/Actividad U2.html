@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Curso Desarrollo en React JS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1>Curso Desarrollo en React JS</h1>
+    <nav>
+      <ul>
+        <li><a href="#Info">Información</a></li>
+        <li><a href="#registro">Registro</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <article id="Info">
+      <h2>Registro al evento</h2>
+      <p>
+        Para participar del evento es requisito ser <strong>mayor de 18 años</strong>.
+        Completá este formulario con tu nombre y edad para validar tu acceso.
+        Si eres menor, no podrás registrarte para ingresar al evento.
+      </p>
+
+      <form id="registro">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" required>
+        <button class= "button" type="submit">Registrarse</button>
+      </form>
+
+      <p class= "mensaje" id="mensaje"></p>
+    </article>
+  </main>
+  <footer class="footer">
+    <small>© 2025 UTN.BA – Leonel Rodriguez</small>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
