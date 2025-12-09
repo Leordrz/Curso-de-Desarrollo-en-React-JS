@@ -14,7 +14,7 @@ Cada unidad incorpora nuevos conceptos: desde HTML y CSS básicos hasta el uso d
 U1 - Antes de React
 ![alt text](/Capturas/U1-Screenshot.png)
 
-U2 - Javascript Escencial
+U2 - Javascript Esencial
 ![alt text](/Capturas/U2-Screenshot.png)
 
 ## Cómo clonar y abrir el proyecto
