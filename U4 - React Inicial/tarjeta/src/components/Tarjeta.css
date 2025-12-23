@@ -1,0 +1,30 @@
+.tarjeta {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.tarjeta__img {
+  width: 120px;
+  height: 120px;
+  border-radius: 999px;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.tarjeta__nombre {
+  margin: 6px 0;
+}
+
+.tarjeta__profesion {
+  margin: 6px 0 12px;
+  font-weight: normal;
+  opacity: 0.8;
+}
+
+.tarjeta__descripcion {
+  margin: 0;
+  line-height: 1.4;
+}
