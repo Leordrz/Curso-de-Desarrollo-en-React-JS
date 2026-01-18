@@ -17,6 +17,10 @@ U1 - Antes de React
 U2 - Javascript Esencial
 ![alt text](/Capturas/U2-Screenshot.png)
 
+U6 - API REST
+![alt text](/Capturas/U6-Screenshot.png)
+
+
 ## Cómo clonar y abrir el proyecto
 
 Clonar el repositorio:
