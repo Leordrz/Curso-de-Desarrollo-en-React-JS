@@ -9,6 +9,10 @@ Cada unidad incorpora nuevos conceptos: desde HTML y CSS básicos hasta el uso d
 |--------|------
 | U1 | Antes de React (HTML + CSS) |
 | U2 | JavaScript esencial |
+| U3 | JavaScript esencial |
+| U4 | React Inicial |
+| U5 | Hooks |
+| U6 | API REST |
 
 ## Capturas
 U1 - Antes de React
