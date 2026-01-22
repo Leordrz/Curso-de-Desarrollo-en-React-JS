@@ -13,6 +13,7 @@ Cada unidad incorpora nuevos conceptos: desde HTML y CSS básicos hasta el uso d
 | U4 | React Inicial |
 | U5 | Hooks |
 | U6 | API REST |
+| U9 | Firebase |
 
 ## Capturas
 U1 - Antes de React
@@ -23,6 +24,9 @@ U2 - Javascript Esencial
 
 U6 - API REST
 ![alt text](/Capturas/U6-Screenshot.png)
+
+U9 - Firebase
+![alt text](/Capturas/U9-Screenshot.png)
 
 
 ## Cómo clonar y abrir el proyecto

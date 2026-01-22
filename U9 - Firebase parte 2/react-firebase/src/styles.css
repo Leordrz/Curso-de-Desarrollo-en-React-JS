@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #ced7e8;
+  color: #111;
+}
+
+.app {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 28px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+
+header {
+  margin-bottom: 22px;
+}
+
+header h1 {
+  margin: 0 0 6px 0;
+  font-size: 3rem;
+}
+
+header small {
+  display: inline-block;
+  margin-top: 4px;
+  font-size: 0.95rem;
+}
+
+h2 {
+  margin: 20px 0 12px 0;
+  font-size: 1.6rem;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #e5e7eb;
+  margin: 18px 0;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr auto;
+  gap: 12px;
+  align-items: center;
+}
+
+input {
+  padding: 10px 12px;
+  border: 1px solid #cfd6de;
+  border-radius: 8px;
+  background: #fff;
+  color: #111;
+}
+
+input::placeholder {
+  color: #6b7280;
+}
+
+button {
+  padding: 10px 14px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #ececec;
+  color: #000000;
+  
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.demo-btn {
+  margin-top: 12px;
+}
+
+.producto {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 14px;
+  background: #fff;
+}
+
+.producto .linea {
+  font-size: 1.05rem;
+  margin-bottom: 10px;
+}
+
+.producto .acciones {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.favorito {
+  color: #b45309;
+}
+
+.edicion {
+  margin-top: 10px;
+}
+
+.edicion .inputs {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
