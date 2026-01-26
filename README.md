@@ -14,6 +14,7 @@ Cada unidad incorpora nuevos conceptos: desde HTML y CSS básicos hasta el uso d
 | U5 | Hooks |
 | U6 | API REST |
 | U9 | Firebase |
+| TP Integrador |
 
 ## Capturas
 U1 - Antes de React
@@ -27,6 +28,9 @@ U6 - API REST
 
 U9 - Firebase
 ![alt text](/Capturas/U9-Screenshot.png)
+
+TP Integrador
+![alt text](/Capturas/TP-Screenshot.png)
 
 
 ## Cómo clonar y abrir el proyecto

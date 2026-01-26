@@ -1,16 +1,24 @@
-# React + Vite
+# TP Integrador - Chat (React + CSS Nativo)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación tipo chat. Permite crear chats, enviar mensajes y recibir respuestas automáticas. El objetivo es practicar componentes, props, estado y organización del proyecto usando React y CSS nativo.
 
-Currently, two official plugins are available:
+## Funcionalidades
+- Lista de chats con buscador.
+- Creación de nuevos chats (botón “Nuevo”).
+- Historial de mensajes independiente por chat.
+- Envío de mensajes.
+- Respuesta automática simulada con retardo (implementada con `useEffect`).
+- Auto-scroll al último mensaje (useEffect en la lista de mensajes).
+- Estilos con CSS nativo y layout con Flexbox.
+- Responsive básico: en pantallas pequeñas se apilan sidebar y chat.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologías
+- React (Vite)
+- JavaScript
+- CSS nativo
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Instalación y ejecución
+1. Clonar el repositorio:
+   ```bash
+    git clone https://github.com/Leordrz/Curso-de-Desarrollo-en-React-JS.git
+    cd "Curso-de-Desarrollo-en-React-JS\TP - Integrador\clon-chat"
