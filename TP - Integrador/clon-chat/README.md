@@ -22,3 +22,12 @@ Aplicación tipo chat. Permite crear chats, enviar mensajes y recibir respuestas
    ```bash
     git clone https://github.com/Leordrz/Curso-de-Desarrollo-en-React-JS.git
     cd "Curso-de-Desarrollo-en-React-JS\TP - Integrador\clon-chat"
+
+## Estructura del proyecto
+  ```bash
+    src/components/: componentes reutilizables (ChatList, ChatWindow, MessageList, etc.)
+    src/data/: datos iniciales (chats y mensajes)
+    src/extras/: funciones auxiliares (hora, ids, respuestas aleatorias, normalización)
+    src/hooks/: lógica del chat encapsulada en un hook (useChatApp)
+    src/styles/: estilos CSS separados por responsabilidad
+    public/perfiles/: avatares (rutas absolutas como /perfiles/...)
