@@ -1,0 +1,15 @@
+.chat-window {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.chat-header {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.chat-status {
+  font-size: 12px;
+  color: #666;
+}
